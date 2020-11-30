@@ -1,0 +1,6 @@
+code: macchina-details-widget
+titles:
+  en: Macchina Details Widget
+  it: Macchina Details Widget
+group: free
+customUiPath: macchina-details-widget.ftl

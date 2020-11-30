@@ -1,0 +1,13 @@
+code: newtest-bundle
+description: This is the newtest bundle
+
+components:
+  plugins:
+    - plugins/newtest-plugin.yaml
+
+  widgets:
+    - ui/widgets/macchina/tableWidget/macchina-table-widget-descriptor.yaml
+    - ui/widgets/macchina/detailsWidget/macchina-details-widget-descriptor.yaml
+    - ui/widgets/macchina/formWidget/macchina-form-widget-descriptor.yaml
+# entando-needle-descriptor-add-widgets - Entando blueprint will add widget bundle files here
+

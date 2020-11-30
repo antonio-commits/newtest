@@ -1,0 +1,6 @@
+code: macchina-table-widget
+titles:
+  en: Macchina Table Widget
+  it: Macchina Table Widget
+group: free
+customUiPath: macchina-table-widget.ftl

@@ -1,0 +1,6 @@
+code: macchina-form-widget
+titles:
+  en: Macchina Form Widget
+  it: Macchina Form Widget
+group: free
+customUiPath: macchina-form-widget.ftl

@@ -1,0 +1,20 @@
+kind: "EntandoPlugin"
+apiVersion: "entando.org/v1"
+metadata:
+  name: "newtest-plugin"
+spec:
+  image: antnoovle/newtest:0.0.1-SNAPSHOT
+  replicas: 1
+  dbms: postgresql
+  parameters: {}
+  ingressPath: "/newtest"
+  healthCheckPath: "/management/health"
+  securityLevel: "strict"
+  connectionConfigNames: []
+  permissions: []
+  roles:
+  - name: newtest-admin
+    code: newtest-admin
+  - name: macchina-admin
+    code: "macchina-admin"
+# entando-needle-descriptor-add-roles - Entando blueprint will add roles here
